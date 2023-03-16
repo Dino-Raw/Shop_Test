@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/fragment_home"
+		android:title="@string/home"
+		android:icon="@drawable/ic_menu_home"
+		android:enabled="true">
+	</item>
+
+	<item
+		android:id="@+id/fragment_favorites"
+		android:title="@string/favorites"
+		android:icon="@drawable/ic_menu_favorites"
+		android:enabled="true">
+	</item>
+
+	<item
+		android:id="@+id/fragment_basket"
+		android:title="@string/basket"
+		android:icon="@drawable/ic_menu_basket"
+		android:enabled="true">
+	</item>
+
+	<item
+		android:id="@+id/fragment_chat"
+		android:title="@string/chat"
+		android:icon="@drawable/ic_menu_chat"
+		android:enabled="true">
+	</item>
+
+	<item
+		android:id="@+id/fragment_profile"
+		android:title="@string/profile"
+		android:icon="@drawable/ic_menu_profile"
+		android:enabled="true">
+	</item>
+
+</menu>

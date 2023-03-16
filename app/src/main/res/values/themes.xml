@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Theme.OnlineShopSatriaAdhiPradana" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		<!-- Primary brand color. -->
+		<item name="colorPrimary">@color/purple_500</item>
+		<item name="colorPrimaryVariant">@color/purple_700</item>
+		<item name="colorOnPrimary">@color/white</item>
+		<!-- Secondary brand color. -->
+		<item name="colorSecondary">@color/teal_200</item>
+		<item name="colorSecondaryVariant">@color/teal_700</item>
+		<item name="colorOnSecondary">@color/black</item>
+		<!-- Status bar color. -->
+		<item name="android:statusBarColor">@color/white</item>
+		<!-- Customize your theme here. -->
+		<item name="android:windowLightStatusBar">true</item>
+	</style>
+
+	<style name="text">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:fontFamily">@font/montserrat_medium</item>
+		<item name="android:letterSpacing">-0.03</item>
+		<item name="android:textColor">@color/text</item>
+	</style>
+
+	<style name="text.home">
+		<item name="android:fontFamily">@font/poppins</item>
+	</style>
+
+	<style name="text.home.category">
+		<item name="android:textSize">8sp</item>
+		<item name="android:textColor">@color/shopCategoryText</item>
+	</style>
+
+	<style name="text.home.flashsale">
+		<item name="android:textSize">10sp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textColorHint">@color/white</item>
+		<item name="android:fontFamily">@font/poppins_semibold</item>
+	</style>
+
+	<style name="text.home.latest">
+		<item name="android:textSize">7sp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textColorHint">@color/white</item>
+		<item name="android:fontFamily">@font/poppins_semibold</item>
+	</style>
+
+	<style name="text.product">
+		<item name="android:fontFamily">@font/poppins_semibold</item>
+	</style>
+
+	<style name="textHeader">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:fontFamily">@font/montserrat_semibold</item>
+		<item name="android:textSize">26sp</item>
+		<item name="android:letterSpacing">-0.01</item>
+		<item name="android:textColor">@color/text</item>
+	</style>
+
+	<style name="textInputEditText" parent="text">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:lines">1</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="textInputLayout">
+		<item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
+		<item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
+		<item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
+		<item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+		<item name="boxBackgroundColor">@color/textInputBackground</item>
+		<item name="boxStrokeWidth">0dp</item>
+		<item name="boxStrokeWidthFocused">0dp</item>
+		<item name="hintEnabled">false</item>
+	</style>
+
+	<style name="button">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:fontFamily">@font/montserrat_bold</item>
+		<item name="android:textAllCaps">false</item>
+		<item name="android:lines">1</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/buttonText</item>
+		<item name="android:backgroundTint">@color/buttonBackground</item>
+		<item name="android:insetTop">0dp</item>
+		<item name="android:insetBottom">0dp</item>
+		<item name="android:letterSpacing">-0.03</item>
+		<item name="cornerRadius">@dimen/corner_radius</item>
+	</style>
+
+	<style name="text.profileItem">
+		<item name="android:textSize">14sp</item>
+		<item name="android:layout_marginStart">6dp</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:textColor">@color/textProfileItem</item>
+	</style>
+
+	<style name="BottomNavigation" parent="Widget.Design.BottomNavigationView">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/bottom_navigation_view_background</item>
+		<item name="itemIconTint">@color/bottom_navigation_item_color</item>
+		<item name="itemActiveIndicatorStyle">@style/activeIndicator</item>
+		<item name="labelVisibilityMode">unlabeled</item>
+		<item name="itemIconSize">18dp</item>
+		<item name="elevation">0dp</item>
+	</style>
+
+	<style name="activeIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+		<item name="android:width">40dp</item>
+		<item name="android:height">40dp</item>
+		<item name="android:color">@color/bottomNavigationIndicatorBackground</item>
+	</style>
+
+	<style name="Theme.OnlineShopSatriaAdhiPradana.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="Theme.OnlineShopSatriaAdhiPradana.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="Theme.OnlineShopSatriaAdhiPradana.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

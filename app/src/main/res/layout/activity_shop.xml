@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/black"
+		tools:context=".presentation.activity.ShopActivity">
+
+		<fragment
+			android:id="@+id/shop_navigation_fragment"
+			android:padding="30dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:name="androidx.navigation.fragment.NavHostFragment"
+			app:defaultNavHost="true"
+			app:navGraph="@navigation/shop_activity_navigation_graph"
+			android:layout_above="@id/bottom_navigation">
+		</fragment>
+
+		<com.google.android.material.bottomnavigation.BottomNavigationView
+			style="@style/BottomNavigation"
+			android:id="@+id/bottom_navigation"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="-20dp"
+			android:layout_alignParentBottom="true"
+			app:menu="@menu/shop_activity_bottom_menu" />
+
+	</RelativeLayout>
+</layout>

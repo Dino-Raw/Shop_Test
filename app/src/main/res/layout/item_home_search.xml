@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<data>
+		<variable
+			name="product"
+			type="String" />
+	</data>
+
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:backgroundTint="@color/searchTextInputBackground">
+
+		<TextView
+			style="@style/textInputEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:fontFamily="@font/poppins"
+			android:textSize="9sp"
+			android:hint="ProductName"
+			android:text="@{product}">
+		</TextView>
+
+	</androidx.cardview.widget.CardView>
+
+</layout>

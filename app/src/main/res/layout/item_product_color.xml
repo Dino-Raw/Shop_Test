@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable
+			name="stroke"
+			type="Integer" />
+	</data>
+
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/product_color_card"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="7dp"
+		android:backgroundTint="@color/app_background"
+		app:cardCornerRadius="9dp"
+		app:cardElevation="0dp"
+		app:strokeWidth="@{stroke}"
+		app:strokeColor="@color/productThumbnailBorder">
+
+		<ImageView
+			android:id="@+id/product_color_background"
+			android:layout_width="34dp"
+			android:layout_height="26dp"/>
+
+	</com.google.android.material.card.MaterialCardView>
+</layout>

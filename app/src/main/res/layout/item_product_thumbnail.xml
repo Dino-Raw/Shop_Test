@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable
+			name="elevation"
+			type="Integer" />
+		<variable
+			name="width"
+			type="Integer" />
+
+		<variable
+			name="height"
+			type="Integer" />
+
+		<variable
+			name="stroke"
+			type="Integer" />
+	</data>
+
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/product_thumbnail_card"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:backgroundTint="@color/app_background"
+		app:cardUseCompatPadding="true"
+		app:cardCornerRadius="6dp"
+		app:cardElevation="@{elevation}"
+		app:strokeWidth="@{stroke}"
+		app:strokeColor="@color/productThumbnailBorder">
+
+		<ImageView
+			android:id="@+id/product_thumbnail_background"
+			android:scaleType="centerCrop"
+			android:adjustViewBounds="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+
+	</com.google.android.material.card.MaterialCardView>
+</layout>

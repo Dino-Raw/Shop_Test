@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="app_background">#FAF9FF</color>
+	<color name="product_background">#181726</color>
+	<color name="text">#161826</color>
+	<color name="textProfileItem">#040402</color>
+	<color name="textGray">#808080</color>
+	<color name="buttonText">#EAEAEA</color>
+	<color name="buttonSubText">#99A0FF</color>
+	<color name="buttonBackground">#4E55D7</color>
+	<color name="textHint">#7B7B7B</color>
+	<color name="textClickable">#254FE6</color>
+	<color name="textInputBackground">#E8E8E8</color>
+	<color name="bottomNavigationIndicatorBackground">#EEEFF4</color>
+	<color name="bottomNavigationItemColor">#909090</color>
+	<color name="bottomNavigationItemSelectedColor">#737297</color>
+	<color name="searchTextInputBackground">#F5F6F6</color>
+	<color name="shopCategoryText">#A6A7AB</color>
+	<color name="homeFlashSaleCategoryText">#070604</color>
+	<color name="productThumbnailBorder">#40000000</color>
+	<color name="productNameText">#161826</color>
+	<color name="productColorText">#737373</color>
+
+</resources>
