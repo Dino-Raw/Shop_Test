@@ -47,6 +47,7 @@ class SignInViewModel @Inject constructor(
                 _isLoading.postValue(false)
                 _message.postValue(response.e.message)
             }
+            else -> {}
         }
     }
 }
